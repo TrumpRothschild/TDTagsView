@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   #s.platform     = :ios
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'TDTagsView/Classes/**/*'
+  s.source_files = 'TDTagsView/Sources/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'TDTagsView' => ['TDTagsView/Assets/*.png']
