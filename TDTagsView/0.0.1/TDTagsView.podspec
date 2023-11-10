@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.author           = { 'TrumpRothschild' => '184889355@qq.com' }
   s.source           = { :git => 'https://github.com/TrumpRothschild/TDTagsView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.platform     = :ios
+  #s.platform     = :ios
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'TDTagsView/Classes/**/*'
@@ -38,6 +38,6 @@ Pod::Spec.new do |s|
   # }
 
  # s.public_header_files = 'TDTagsView/Classes/**/*'
-  s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

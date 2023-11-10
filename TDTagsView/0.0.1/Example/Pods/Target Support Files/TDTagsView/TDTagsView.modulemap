@@ -1,0 +1,6 @@
+framework module TDTagsView {
+  umbrella header "TDTagsView-umbrella.h"
+
+  export *
+  module * { export * }
+}
