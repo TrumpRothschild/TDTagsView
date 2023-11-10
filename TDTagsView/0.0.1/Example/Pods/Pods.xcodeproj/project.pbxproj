@@ -13,7 +13,6 @@
 		0B719B2FE0A44F90FC5CBB8069B888A6 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB0AA05F69F82B5C626D6D3D17ED704 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F3A7C0144901D6BC28990003EA6B98B /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = 108488F285A773A3BCE052B9350CD6CD /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1107C031F6C7F5A9786CF038198D5601 /* EXPMatchers+beLessThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9392407C48D3EE80025186936C70627F /* EXPMatchers+beLessThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		121C2C7B520EA404707A5F2AB7CE1608 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EDD9CFFF925FB3E2D46F34137B86A /* ReplaceMe.m */; };
 		1227C616DBA66893E3EFBEA76D2AE965 /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 2567178B0ABBEB28AA767A839F7320DB /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14020044770D506AFECF188FB24DAF9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		15A504A0CB686144F945F9B714D6082A /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 698F11FEE558B5B0DAA7277EB1FAF6F4 /* UIImage+Compare.m */; };
@@ -95,6 +94,36 @@
 		A12AB48D924A3D909E538437428F95A6 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A80F86945A31D125D731C058878E6F /* UIApplication+StrictKeyWindow.m */; };
 		A26A680A687CFFFF050919E96281321A /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 163E643A2B63CA5BC22F96491ADA4108 /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A2CA8283BC8A4FF5AFFAF58FDAA83D24 /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C58E05B3119F0C2929E9E4EBE15F232 /* EXPMatchers+beInstanceOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A4C20C272AFE84CF00807ECA /* TTGTextTagStringContent.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C20C172AFE84CF00807ECA /* TTGTextTagStringContent.m */; };
+		A4C20C282AFE84CF00807ECA /* TTGTextTagStringContent.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C20C172AFE84CF00807ECA /* TTGTextTagStringContent.m */; };
+		A4C20C292AFE84CF00807ECA /* TTGTextTag.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C20C182AFE84CF00807ECA /* TTGTextTag.m */; };
+		A4C20C2A2AFE84CF00807ECA /* TTGTextTag.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C20C182AFE84CF00807ECA /* TTGTextTag.m */; };
+		A4C20C2B2AFE84CF00807ECA /* TTGTextTagAttributedStringContent.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C192AFE84CF00807ECA /* TTGTextTagAttributedStringContent.h */; };
+		A4C20C2C2AFE84CF00807ECA /* TTGTextTagAttributedStringContent.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C192AFE84CF00807ECA /* TTGTextTagAttributedStringContent.h */; };
+		A4C20C2D2AFE84CF00807ECA /* TTGTagCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C1A2AFE84CF00807ECA /* TTGTagCollectionView.h */; };
+		A4C20C2E2AFE84CF00807ECA /* TTGTagCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C1A2AFE84CF00807ECA /* TTGTagCollectionView.h */; };
+		A4C20C2F2AFE84CF00807ECA /* TTGTextTagStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C1B2AFE84CF00807ECA /* TTGTextTagStyle.h */; };
+		A4C20C302AFE84CF00807ECA /* TTGTextTagStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C1B2AFE84CF00807ECA /* TTGTextTagStyle.h */; };
+		A4C20C332AFE84CF00807ECA /* TTGTagCollectionView-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C1D2AFE84CF00807ECA /* TTGTagCollectionView-Bridging-Header.h */; };
+		A4C20C342AFE84CF00807ECA /* TTGTagCollectionView-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C1D2AFE84CF00807ECA /* TTGTagCollectionView-Bridging-Header.h */; };
+		A4C20C352AFE84CF00807ECA /* TTGTextTagCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C1E2AFE84CF00807ECA /* TTGTextTagCollectionView.h */; };
+		A4C20C362AFE84CF00807ECA /* TTGTextTagCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C1E2AFE84CF00807ECA /* TTGTextTagCollectionView.h */; };
+		A4C20C372AFE84CF00807ECA /* TTGTextTagContent.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C1F2AFE84CF00807ECA /* TTGTextTagContent.h */; };
+		A4C20C382AFE84CF00807ECA /* TTGTextTagContent.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C1F2AFE84CF00807ECA /* TTGTextTagContent.h */; };
+		A4C20C392AFE84CF00807ECA /* TTGTagCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C20C202AFE84CF00807ECA /* TTGTagCollectionView.m */; };
+		A4C20C3A2AFE84CF00807ECA /* TTGTagCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C20C202AFE84CF00807ECA /* TTGTagCollectionView.m */; };
+		A4C20C3B2AFE84CF00807ECA /* TTGTextTagAttributedStringContent.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C20C212AFE84CF00807ECA /* TTGTextTagAttributedStringContent.m */; };
+		A4C20C3C2AFE84CF00807ECA /* TTGTextTagAttributedStringContent.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C20C212AFE84CF00807ECA /* TTGTextTagAttributedStringContent.m */; };
+		A4C20C3D2AFE84CF00807ECA /* TTGTextTag.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C222AFE84CF00807ECA /* TTGTextTag.h */; };
+		A4C20C3E2AFE84CF00807ECA /* TTGTextTag.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C222AFE84CF00807ECA /* TTGTextTag.h */; };
+		A4C20C3F2AFE84CF00807ECA /* TTGTextTagStringContent.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C232AFE84CF00807ECA /* TTGTextTagStringContent.h */; };
+		A4C20C402AFE84CF00807ECA /* TTGTextTagStringContent.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C20C232AFE84CF00807ECA /* TTGTextTagStringContent.h */; };
+		A4C20C412AFE84CF00807ECA /* TTGTextTagStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C20C242AFE84CF00807ECA /* TTGTextTagStyle.m */; };
+		A4C20C422AFE84CF00807ECA /* TTGTextTagStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C20C242AFE84CF00807ECA /* TTGTextTagStyle.m */; };
+		A4C20C432AFE84CF00807ECA /* TTGTextTagContent.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C20C252AFE84CF00807ECA /* TTGTextTagContent.m */; };
+		A4C20C442AFE84CF00807ECA /* TTGTextTagContent.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C20C252AFE84CF00807ECA /* TTGTextTagContent.m */; };
+		A4C20C452AFE84CF00807ECA /* TTGTextTagCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C20C262AFE84CF00807ECA /* TTGTextTagCollectionView.m */; };
+		A4C20C462AFE84CF00807ECA /* TTGTextTagCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C20C262AFE84CF00807ECA /* TTGTextTagCollectionView.m */; };
 		ADCDC7E24F8AC5459D1CB24A21539577 /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8794D436AF7CD02C352F33E8756DA6AA /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B0CC7AB95670A68A37FEDC9A45FAA878 /* EXPFloatTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0B2A4326A6771BE138C8CE16707F8A /* EXPFloatTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1F388EC77B2E44E7D754D289F25E4E3 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 220A0E011AFFDA3021348B51AF9B5116 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -244,7 +273,6 @@
 		1CEE8605EE76326162BB0A82851184BC /* Expecta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.debug.xcconfig; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1DB53AA433A01014DA105EFCF5D5EEDA /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
-		1E9EDD9CFFF925FB3E2D46F34137B86A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TDTagsView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		1EA27DF2982430E34561844405FE9ED6 /* Pods-TDTagsView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDTagsView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1FA89DE2872A452300439F9F1E40E35A /* Expecta+Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Expecta+Snapshots.modulemap"; sourceTree = "<group>"; };
 		1FD6BF42F46FC94FDB5AD2C7B2BDF43E /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
@@ -256,7 +284,7 @@
 		23632E041D2B0D2C9EA7A79FE28AAA51 /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
 		24A29238FAD1F0001AEC71F6750C425B /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		2567178B0ABBEB28AA767A839F7320DB /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
-		260C4C5A95BB07E831164972D2604ADC /* TDTagsView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TDTagsView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		260C4C5A95BB07E831164972D2604ADC /* TDTagsView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TDTagsView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		26C8435641FCA052C0EC476A20205CE1 /* Pods-TDTagsView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TDTagsView_Example.modulemap"; sourceTree = "<group>"; };
 		295611C8A82D26B1465B8627CD7935CA /* Pods-TDTagsView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDTagsView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		29C1E2E20A714678635E90E0295083E8 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
@@ -315,7 +343,7 @@
 		7B673AF948331D276A91FD8111F4DCF1 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
 		7BAF85133BA0A7F2A4C0CC2E3D73D13F /* Pods-TDTagsView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDTagsView_Example-Info.plist"; sourceTree = "<group>"; };
 		7C25FB2E5FBD06F6A7AC775593C12517 /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
-		7EE6A0DFEE4385D2FA809E59BE693CA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7EE6A0DFEE4385D2FA809E59BE693CA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		80BA67F9000394F8A87482C9604AF43C /* Expecta+Snapshots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Expecta+Snapshots.release.xcconfig"; sourceTree = "<group>"; };
 		80CAAE325A74FE5DA7E710191BC2F53B /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
 		8182EF5766A555C2358C4836F342C49C /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
@@ -343,12 +371,27 @@
 		9685F6F1DB9CF1394BD80F9DC81C6F38 /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		99582ADD4CA8BA999491D082A629AF4E /* Pods-TDTagsView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TDTagsView_Tests"; path = Pods_TDTagsView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE5D806DA25F158417B1DB9A3D4D752 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E0394BEA7DB87C6313E024C3574B0BD /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		9E9CE2D7E09295A7E3FFD513DC7BF589 /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
 		A1FA6D557A9C3E538CA3D357176CD434 /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
 		A3BEB660D20F2DBECD7A04C393C603A4 /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = Specta/Specta/SpectaTypes.h; sourceTree = "<group>"; };
 		A442557684FED223F2CAD13967A4714E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		A4C20C172AFE84CF00807ECA /* TTGTextTagStringContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGTextTagStringContent.m; sourceTree = "<group>"; };
+		A4C20C182AFE84CF00807ECA /* TTGTextTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGTextTag.m; sourceTree = "<group>"; };
+		A4C20C192AFE84CF00807ECA /* TTGTextTagAttributedStringContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGTextTagAttributedStringContent.h; sourceTree = "<group>"; };
+		A4C20C1A2AFE84CF00807ECA /* TTGTagCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGTagCollectionView.h; sourceTree = "<group>"; };
+		A4C20C1B2AFE84CF00807ECA /* TTGTextTagStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGTextTagStyle.h; sourceTree = "<group>"; };
+		A4C20C1D2AFE84CF00807ECA /* TTGTagCollectionView-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TTGTagCollectionView-Bridging-Header.h"; sourceTree = "<group>"; };
+		A4C20C1E2AFE84CF00807ECA /* TTGTextTagCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGTextTagCollectionView.h; sourceTree = "<group>"; };
+		A4C20C1F2AFE84CF00807ECA /* TTGTextTagContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGTextTagContent.h; sourceTree = "<group>"; };
+		A4C20C202AFE84CF00807ECA /* TTGTagCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGTagCollectionView.m; sourceTree = "<group>"; };
+		A4C20C212AFE84CF00807ECA /* TTGTextTagAttributedStringContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGTextTagAttributedStringContent.m; sourceTree = "<group>"; };
+		A4C20C222AFE84CF00807ECA /* TTGTextTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGTextTag.h; sourceTree = "<group>"; };
+		A4C20C232AFE84CF00807ECA /* TTGTextTagStringContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGTextTagStringContent.h; sourceTree = "<group>"; };
+		A4C20C242AFE84CF00807ECA /* TTGTextTagStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGTextTagStyle.m; sourceTree = "<group>"; };
+		A4C20C252AFE84CF00807ECA /* TTGTextTagContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGTextTagContent.m; sourceTree = "<group>"; };
+		A4C20C262AFE84CF00807ECA /* TTGTextTagCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGTextTagCollectionView.m; sourceTree = "<group>"; };
 		A4D1945128FDC5ABEEFE03659F44823C /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
 		A4D512482494319EFC2321363FA04040 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		A598027CD01655638D7ECD3FC6B311F8 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
@@ -371,7 +414,7 @@
 		C4FF0CB39520C993BA997D267A86A733 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
 		C55CDFBB5E7EC2757FD3661C53214A47 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
 		C7D149F19268987F119A11C546B7EFE0 /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
-		C7F311B57DDA64AC96B86E4C902AF361 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C7F311B57DDA64AC96B86E4C902AF361 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C9EA8E334D133686BAABBCCEA7DD725A /* Pods-TDTagsView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDTagsView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CB5FABF2A91AB45169A41FC5ACCF403D /* Pods-TDTagsView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDTagsView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CBB0AA05F69F82B5C626D6D3D17ED704 /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
@@ -484,7 +527,6 @@
 				511C46E784B9996D7B2F64848F053C7E /* EXPMatchers+FBSnapshotTest.m */,
 				0F23D28A4444D894C38CEF515383653C /* Support Files */,
 			);
-			name = "Expecta+Snapshots";
 			path = "Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
@@ -669,7 +711,6 @@
 				037F5CF6DD82B4B454527CB4C0B46851 /* NSValue+Expecta.m */,
 				359E3CB4F5CA2328797997A02B045652 /* Support Files */,
 			);
-			name = Expecta;
 			path = Expecta;
 			sourceTree = "<group>";
 		};
@@ -719,7 +760,6 @@
 				F31F56FF90B92A6836165326564818BB /* Support Files */,
 				B5B89E42258BE32A66C75CB2AB3C6E1D /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -768,8 +808,30 @@
 				01B785871406A850B0A1E5ACC0D46F00 /* XCTestCase+Specta.m */,
 				29E624CAE3E3AC37ACA96A547E60E03E /* Support Files */,
 			);
-			name = Specta;
 			path = Specta;
+			sourceTree = "<group>";
+		};
+		A4C20C162AFE84CF00807ECA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A4C20C1D2AFE84CF00807ECA /* TTGTagCollectionView-Bridging-Header.h */,
+				A4C20C172AFE84CF00807ECA /* TTGTextTagStringContent.m */,
+				A4C20C182AFE84CF00807ECA /* TTGTextTag.m */,
+				A4C20C192AFE84CF00807ECA /* TTGTextTagAttributedStringContent.h */,
+				A4C20C1A2AFE84CF00807ECA /* TTGTagCollectionView.h */,
+				A4C20C1B2AFE84CF00807ECA /* TTGTextTagStyle.h */,
+				A4C20C1E2AFE84CF00807ECA /* TTGTextTagCollectionView.h */,
+				A4C20C1F2AFE84CF00807ECA /* TTGTextTagContent.h */,
+				A4C20C202AFE84CF00807ECA /* TTGTagCollectionView.m */,
+				A4C20C212AFE84CF00807ECA /* TTGTextTagAttributedStringContent.m */,
+				A4C20C222AFE84CF00807ECA /* TTGTextTag.h */,
+				A4C20C232AFE84CF00807ECA /* TTGTextTagStringContent.h */,
+				A4C20C242AFE84CF00807ECA /* TTGTextTagStyle.m */,
+				A4C20C252AFE84CF00807ECA /* TTGTextTagContent.m */,
+				A4C20C262AFE84CF00807ECA /* TTGTextTagCollectionView.m */,
+			);
+			name = Classes;
+			path = TDTagsView/Classes;
 			sourceTree = "<group>";
 		};
 		B320D49D81E9848FAF2E72A636BD182B /* Pod */ = {
@@ -828,7 +890,7 @@
 		F4F5287CEF0D3478B541FA9D48B09BC6 /* TDTagsView */ = {
 			isa = PBXGroup;
 			children = (
-				1E9EDD9CFFF925FB3E2D46F34137B86A /* ReplaceMe.m */,
+				A4C20C162AFE84CF00807ECA /* Classes */,
 				B320D49D81E9848FAF2E72A636BD182B /* Pod */,
 				9185316EC8A2AC79217BD5F8508212F4 /* Support Files */,
 			);
@@ -854,7 +916,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C20C402AFE84CF00807ECA /* TTGTextTagStringContent.h in Headers */,
+				A4C20C302AFE84CF00807ECA /* TTGTextTagStyle.h in Headers */,
+				A4C20C362AFE84CF00807ECA /* TTGTextTagCollectionView.h in Headers */,
+				A4C20C3E2AFE84CF00807ECA /* TTGTextTag.h in Headers */,
+				A4C20C2E2AFE84CF00807ECA /* TTGTagCollectionView.h in Headers */,
 				5FF5AD3722D2453AD9ECE5141FA6317A /* TDTagsView-umbrella.h in Headers */,
+				A4C20C382AFE84CF00807ECA /* TTGTextTagContent.h in Headers */,
+				A4C20C342AFE84CF00807ECA /* TTGTagCollectionView-Bridging-Header.h in Headers */,
+				A4C20C2C2AFE84CF00807ECA /* TTGTextTagAttributedStringContent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -926,12 +996,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C20C2B2AFE84CF00807ECA /* TTGTextTagAttributedStringContent.h in Headers */,
 				F2B5D73C3923C1F4A04CE0613A482690 /* EXPBlockDefinedMatcher.h in Headers */,
 				FF4277313682681CBDBBC697A7CB4F82 /* EXPDefines.h in Headers */,
 				E96C5E17E9BEFCBC4D172538F860816E /* EXPDoubleTuple.h in Headers */,
 				604E2F3AF42D7A42648596CD18D16A53 /* Expecta.h in Headers */,
 				D67114A7D3E6BAA39DBEDCBBA5D325AA /* Expecta-umbrella.h in Headers */,
 				9851254D93144EFEDD443C799D464D5B /* ExpectaObject.h in Headers */,
+				A4C20C332AFE84CF00807ECA /* TTGTagCollectionView-Bridging-Header.h in Headers */,
 				9AE4AF19CDF8DF5A15FD1A515F7DD0B5 /* ExpectaSupport.h in Headers */,
 				EAD692C6493916D4C67E6F4F3B95EC08 /* EXPExpect.h in Headers */,
 				B0CC7AB95670A68A37FEDC9A45FAA878 /* EXPFloatTuple.h in Headers */,
@@ -943,15 +1015,21 @@
 				3AA3077D400823FE972C841D0ED2A48F /* EXPMatchers+beginWith.h in Headers */,
 				6FFA723BC1B068310CD5E33808B395D8 /* EXPMatchers+beGreaterThan.h in Headers */,
 				F63E14CCD57CC9BCB926AA59B5094256 /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */,
+				A4C20C2D2AFE84CF00807ECA /* TTGTagCollectionView.h in Headers */,
 				74BCA9241955ED11E5ABE14C151F2C3F /* EXPMatchers+beIdenticalTo.h in Headers */,
+				A4C20C2F2AFE84CF00807ECA /* TTGTextTagStyle.h in Headers */,
 				517188CF13AFC3DA1EB95CC0B7407A25 /* EXPMatchers+beInstanceOf.h in Headers */,
 				C1CD225B36139E957C0062ADBE31C77C /* EXPMatchers+beInTheRangeOf.h in Headers */,
 				6E549E4864D0EA2C1B0DFC774CAD78EA /* EXPMatchers+beKindOf.h in Headers */,
+				A4C20C352AFE84CF00807ECA /* TTGTextTagCollectionView.h in Headers */,
 				40EDEFC16D8C7D6CAAC7CBA13BAD45DD /* EXPMatchers+beLessThan.h in Headers */,
 				1107C031F6C7F5A9786CF038198D5601 /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
 				6BB206F41A2A9F70DE7C021A4B7A6917 /* EXPMatchers+beNil.h in Headers */,
 				DFC264EAE636DDBCDB8A7D3AA6DC1B26 /* EXPMatchers+beSubclassOf.h in Headers */,
+				A4C20C372AFE84CF00807ECA /* TTGTextTagContent.h in Headers */,
 				1F1CDEFC6A4ED6C4D061B69CEFF6EBD5 /* EXPMatchers+beSupersetOf.h in Headers */,
+				A4C20C3D2AFE84CF00807ECA /* TTGTextTag.h in Headers */,
+				A4C20C3F2AFE84CF00807ECA /* TTGTextTagStringContent.h in Headers */,
 				48F95EE6350709299F3A1BF899CC3945 /* EXPMatchers+beTruthy.h in Headers */,
 				22D792905E21438D732756D42EBF11DE /* EXPMatchers+conformTo.h in Headers */,
 				26A962DE541F4B916FAD5B2C63DC03D3 /* EXPMatchers+contain.h in Headers */,
@@ -1221,8 +1299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				121C2C7B520EA404707A5F2AB7CE1608 /* ReplaceMe.m in Sources */,
+				A4C20C2A2AFE84CF00807ECA /* TTGTextTag.m in Sources */,
+				A4C20C3C2AFE84CF00807ECA /* TTGTextTagAttributedStringContent.m in Sources */,
+				A4C20C282AFE84CF00807ECA /* TTGTextTagStringContent.m in Sources */,
 				F6FD579E9E0567A823EFEEE95A052499 /* TDTagsView-dummy.m in Sources */,
+				A4C20C462AFE84CF00807ECA /* TTGTextTagCollectionView.m in Sources */,
+				A4C20C3A2AFE84CF00807ECA /* TTGTagCollectionView.m in Sources */,
+				A4C20C442AFE84CF00807ECA /* TTGTextTagContent.m in Sources */,
+				A4C20C422AFE84CF00807ECA /* TTGTextTagStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1268,14 +1352,19 @@
 			files = (
 				EBE25E9DC9EC64BE49E9B98CB3CA7740 /* EXPBlockDefinedMatcher.m in Sources */,
 				485D7274CCB0A5C0A812A2F68164767A /* EXPDoubleTuple.m in Sources */,
+				A4C20C452AFE84CF00807ECA /* TTGTextTagCollectionView.m in Sources */,
 				7253B6BCF113107A46DD54CC275847D3 /* Expecta-dummy.m in Sources */,
 				ADCDC7E24F8AC5459D1CB24A21539577 /* ExpectaObject.m in Sources */,
 				CB8A26F7B56EE3511ADCD26B37DC6669 /* ExpectaSupport.m in Sources */,
+				A4C20C392AFE84CF00807ECA /* TTGTagCollectionView.m in Sources */,
+				A4C20C3B2AFE84CF00807ECA /* TTGTextTagAttributedStringContent.m in Sources */,
 				371DFDA7FEFD5D7A781885E98CCA5D37 /* EXPExpect.m in Sources */,
+				A4C20C272AFE84CF00807ECA /* TTGTextTagStringContent.m in Sources */,
 				4BC1A531C650A76D2CF83209EA688015 /* EXPFloatTuple.m in Sources */,
 				583610186425FF3ECD4FC6CB6A1847FC /* EXPMatcherHelpers.m in Sources */,
 				BED80124D9086688501DE572EDA56F2D /* EXPMatchers+beCloseTo.m in Sources */,
 				6F6D69F4CEE5D3878F453D0CD90A0785 /* EXPMatchers+beFalsy.m in Sources */,
+				A4C20C412AFE84CF00807ECA /* TTGTextTagStyle.m in Sources */,
 				9E5BA4B7CBB1B65826B07B9EBF679CBF /* EXPMatchers+beginWith.m in Sources */,
 				F38B030E7B39776A987AEA1CC1FA10A7 /* EXPMatchers+beGreaterThan.m in Sources */,
 				4497B6FA75F0F29B8B39D81901403906 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */,
@@ -1285,6 +1374,7 @@
 				3DE609C500989256CE0D9C7965C02F2F /* EXPMatchers+beKindOf.m in Sources */,
 				88DCA1A8606768C16601B77DDDCA2231 /* EXPMatchers+beLessThan.m in Sources */,
 				C68373B25E6D9A4AF2D1513B95A920AD /* EXPMatchers+beLessThanOrEqualTo.m in Sources */,
+				A4C20C292AFE84CF00807ECA /* TTGTextTag.m in Sources */,
 				65A8EB522A8CF44C401E6B1ABC67018F /* EXPMatchers+beNil.m in Sources */,
 				F17E50B5F51BAC83AA60E8A86DFCE042 /* EXPMatchers+beSubclassOf.m in Sources */,
 				F0EA8AEF1B95FB7370DBB801B22C0885 /* EXPMatchers+beSupersetOf.m in Sources */,
@@ -1295,6 +1385,7 @@
 				D265ED87490296DBD76C9D20394875A1 /* EXPMatchers+equal.m in Sources */,
 				53E8AC11D6EDF5CCEEC42638071D204B /* EXPMatchers+haveCountOf.m in Sources */,
 				6DA76CEA6A3CEE0CE9985681753D2B48 /* EXPMatchers+match.m in Sources */,
+				A4C20C432AFE84CF00807ECA /* TTGTextTagContent.m in Sources */,
 				E1B49521C17B05DC91218560F28C1FE4 /* EXPMatchers+postNotification.m in Sources */,
 				785A1A6140143F52B65F096945E78C69 /* EXPMatchers+raise.m in Sources */,
 				6E90C8424FDBEC38061929C572C4C891 /* EXPMatchers+raiseWithReason.m in Sources */,
@@ -1675,8 +1766,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
